@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Model checkpoints (too large for git)
+results/*/pytorch_model.bin
+results/*/model.safetensors
+results/*/optimizer.pt
+*.onnx
+*.bin
+
+# Keep results folder structure but not large files
+!results/.gitkeep
+
+# Data
+glue_data/
+*.tsv
+*.csv
+
+# Logs
+logs/
+runs/
+*.log
+tensorboard_logs/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Conda
+.conda/
